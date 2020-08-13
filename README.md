@@ -3,7 +3,7 @@
 The main aim of this model is to detect whether a person is wearing a mask or not...we can add this to production with help of CCTV cameras,which generate image of the the person it
 sees and then if the person is not wearing a mask he/she will not be granted permission to enter that place...
 
-======================================================================================================================================================================
+==============================================================================================================
 
 »Generation of images by ------> CCTV cameras
 
@@ -12,7 +12,7 @@ sees and then if the person is not wearing a mask he/she will not be granted per
 »based on the result the entrance door,can be controlled by an IOT device which will open if the person is wearing mask and will show an Alert Message if 
 the Person is not wearing a Mask stating "Please Wear a Mask"
 
-======================================================================================================================================================================
+==============================================================================================================
 
 here,i've created a Convolution Neural Network which detects whether the person is wearing a Mask or Not.
 I've used the cv2 package of python for the DataPreprocessing and then i've passed those preprocessed images to a Convolution Neural Network which predicts whether the Person is Wearing a Mask or not
